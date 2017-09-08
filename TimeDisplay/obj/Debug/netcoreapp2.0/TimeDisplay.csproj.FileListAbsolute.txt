@@ -1,0 +1,10 @@
+/Users/erick_ruiz23/Desktop/ASP.NETCore/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.deps.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.runtimeconfig.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.runtimeconfig.dev.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.dll
+/Users/erick_ruiz23/Desktop/ASP.NETCore/TimeDisplay/bin/Debug/netcoreapp2.0/TimeDisplay.pdb
+/Users/erick_ruiz23/Desktop/ASP.NETCore/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.csproj.CoreCompileInputs.cache
+/Users/erick_ruiz23/Desktop/ASP.NETCore/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.AssemblyInfoInputs.cache
+/Users/erick_ruiz23/Desktop/ASP.NETCore/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.AssemblyInfo.cs
+/Users/erick_ruiz23/Desktop/ASP.NETCore/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.dll
+/Users/erick_ruiz23/Desktop/ASP.NETCore/TimeDisplay/obj/Debug/netcoreapp2.0/TimeDisplay.pdb
