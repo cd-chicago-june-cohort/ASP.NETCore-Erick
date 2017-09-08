@@ -1,0 +1,10 @@
+/Users/erick_ruiz23/Desktop/ASP.NETCore/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.deps.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.runtimeconfig.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.runtimeconfig.dev.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.dll
+/Users/erick_ruiz23/Desktop/ASP.NETCore/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.pdb
+/Users/erick_ruiz23/Desktop/ASP.NETCore/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.csproj.CoreCompileInputs.cache
+/Users/erick_ruiz23/Desktop/ASP.NETCore/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.AssemblyInfoInputs.cache
+/Users/erick_ruiz23/Desktop/ASP.NETCore/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.AssemblyInfo.cs
+/Users/erick_ruiz23/Desktop/ASP.NETCore/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.dll
+/Users/erick_ruiz23/Desktop/ASP.NETCore/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.pdb
