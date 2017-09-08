@@ -1,0 +1,10 @@
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Starter_Ver2/bin/Debug/netcoreapp1.1/Starter.deps.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Starter_Ver2/bin/Debug/netcoreapp1.1/Starter.runtimeconfig.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Starter_Ver2/bin/Debug/netcoreapp1.1/Starter.runtimeconfig.dev.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Starter_Ver2/bin/Debug/netcoreapp1.1/Starter.dll
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Starter_Ver2/bin/Debug/netcoreapp1.1/Starter.pdb
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Starter_Ver2/obj/Debug/netcoreapp1.1/Starter.csproj.CoreCompileInputs.cache
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Starter_Ver2/obj/Debug/netcoreapp1.1/Starter.AssemblyInfoInputs.cache
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Starter_Ver2/obj/Debug/netcoreapp1.1/Starter.AssemblyInfo.cs
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Starter_Ver2/obj/Debug/netcoreapp1.1/Starter.dll
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Starter_Ver2/obj/Debug/netcoreapp1.1/Starter.pdb
