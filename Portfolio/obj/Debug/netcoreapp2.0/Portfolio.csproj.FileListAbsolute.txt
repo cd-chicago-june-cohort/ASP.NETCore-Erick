@@ -1,0 +1,10 @@
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.deps.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.runtimeconfig.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.runtimeconfig.dev.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.dll
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.pdb
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.csproj.CoreCompileInputs.cache
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.AssemblyInfoInputs.cache
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.AssemblyInfo.cs
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.dll
+/Users/erick_ruiz23/Desktop/ASP.NETCore/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.pdb
