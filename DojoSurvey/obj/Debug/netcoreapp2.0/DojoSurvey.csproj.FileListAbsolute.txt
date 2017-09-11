@@ -1,0 +1,10 @@
+/Users/erick_ruiz23/Desktop/ASP.NETCore/DojoSurvey/bin/Debug/netcoreapp2.0/DojoSurvey.deps.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/DojoSurvey/bin/Debug/netcoreapp2.0/DojoSurvey.runtimeconfig.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/DojoSurvey/bin/Debug/netcoreapp2.0/DojoSurvey.runtimeconfig.dev.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/DojoSurvey/bin/Debug/netcoreapp2.0/DojoSurvey.dll
+/Users/erick_ruiz23/Desktop/ASP.NETCore/DojoSurvey/bin/Debug/netcoreapp2.0/DojoSurvey.pdb
+/Users/erick_ruiz23/Desktop/ASP.NETCore/DojoSurvey/obj/Debug/netcoreapp2.0/DojoSurvey.csproj.CoreCompileInputs.cache
+/Users/erick_ruiz23/Desktop/ASP.NETCore/DojoSurvey/obj/Debug/netcoreapp2.0/DojoSurvey.AssemblyInfoInputs.cache
+/Users/erick_ruiz23/Desktop/ASP.NETCore/DojoSurvey/obj/Debug/netcoreapp2.0/DojoSurvey.AssemblyInfo.cs
+/Users/erick_ruiz23/Desktop/ASP.NETCore/DojoSurvey/obj/Debug/netcoreapp2.0/DojoSurvey.dll
+/Users/erick_ruiz23/Desktop/ASP.NETCore/DojoSurvey/obj/Debug/netcoreapp2.0/DojoSurvey.pdb
