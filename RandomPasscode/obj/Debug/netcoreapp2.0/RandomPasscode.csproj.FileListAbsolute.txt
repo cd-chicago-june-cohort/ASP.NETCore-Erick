@@ -1,0 +1,10 @@
+/Users/erick_ruiz23/Desktop/ASP.NETCore/RandomPasscode/bin/Debug/netcoreapp2.0/RandomPasscode.deps.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/RandomPasscode/bin/Debug/netcoreapp2.0/RandomPasscode.runtimeconfig.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/RandomPasscode/bin/Debug/netcoreapp2.0/RandomPasscode.runtimeconfig.dev.json
+/Users/erick_ruiz23/Desktop/ASP.NETCore/RandomPasscode/bin/Debug/netcoreapp2.0/RandomPasscode.dll
+/Users/erick_ruiz23/Desktop/ASP.NETCore/RandomPasscode/bin/Debug/netcoreapp2.0/RandomPasscode.pdb
+/Users/erick_ruiz23/Desktop/ASP.NETCore/RandomPasscode/obj/Debug/netcoreapp2.0/RandomPasscode.csproj.CoreCompileInputs.cache
+/Users/erick_ruiz23/Desktop/ASP.NETCore/RandomPasscode/obj/Debug/netcoreapp2.0/RandomPasscode.AssemblyInfoInputs.cache
+/Users/erick_ruiz23/Desktop/ASP.NETCore/RandomPasscode/obj/Debug/netcoreapp2.0/RandomPasscode.AssemblyInfo.cs
+/Users/erick_ruiz23/Desktop/ASP.NETCore/RandomPasscode/obj/Debug/netcoreapp2.0/RandomPasscode.dll
+/Users/erick_ruiz23/Desktop/ASP.NETCore/RandomPasscode/obj/Debug/netcoreapp2.0/RandomPasscode.pdb
