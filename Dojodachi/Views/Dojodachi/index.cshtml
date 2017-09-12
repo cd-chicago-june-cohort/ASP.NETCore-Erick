@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="~/css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <title>Dojodachi</title>
+    </head>
+    <body>
+        <div id="status">
+            <label>Fullness: </label>
+            <p>@ViewBag.Fullness</p>
+            <label>Happiness: </label>
+            <p>@ViewBag.Happiness</p>
+            <label>Meals: </label>
+            <p>@ViewBag.Meals</p>
+            <label>Energy: </label>
+            <p>@ViewBag.Energy</p>
+        </div>
+        <div id="container">
+            <p>@ViewBag.Action</p>
+        </div>
+        <div id="options">
+            @{
+                if(ViewBag.Restart){
+                    <a href="/restart"><button>Restart</button></a>
+                }else{
+                    <a href="/feed"><button>Feed</button></a>
+                    <a href="/play"><button>Play</button></a>
+                    <a href="/work"><button>Work</button></a>
+                    <a href="/sleep"><button>Sleep</button></a>
+                }
+            }
+        </div>
+    </body>
+</html>

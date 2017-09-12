@@ -1,0 +1,28 @@
+#container{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+}
+#options{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    padding: 20px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    margin-right: 12px;
+}
+#status{
+    margin: auto;
+    width: 500px;
+    padding: 20px;    
+    margin-top: 170px;
+}
+p{
+    display: inline-block;
+    margin-right: 30px;
+}
