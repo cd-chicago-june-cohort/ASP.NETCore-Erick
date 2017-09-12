@@ -6936,7 +6936,7 @@
       ]
     },
     "Microsoft.NETCore.App/2.0.0": {
-      "sha512": "/mzXF+UtZef+VpzzN88EpvFq5U6z4rj54ZMq/J968H6pcvyLOmcupmTRpJ3CJm8ILoCGh9WI7qpDdiKtuzswrQ==",
+      "sha512": "mLJPyZP1iJTl8Y7hpnpZxzd8Wx/+2w6qW+aH35Wscha8C5/8ULSRMPARGKe5AM8QxMz2ume3P+KybbMr4mGBtA==",
       "type": "package",
       "path": "microsoft.netcore.app/2.0.0",
       "files": [
@@ -7214,7 +7214,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetAppHost/2.0.0": {
-      "sha512": "L4GGkcI/Mxl8PKLRpFdGmLb5oI8sGIR05bDTGkzCoamAjdUl1Zhkov2swjEsZvKYT8kkdiz39LtwyGYuCJxm1A==",
+      "sha512": "WfDABpK1g4JnQeVCvE6U7P11RnWeFlwnUdr4nD0zxbq4yInd2ZGZbdoE9Vs/KJQX0Mij5II+xHv0ig+p9m6kCw==",
       "type": "package",
       "path": "microsoft.netcore.dotnetapphost/2.0.0",
       "files": [
@@ -7226,7 +7226,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostPolicy/2.0.0": {
-      "sha512": "rm7mMn0A93fwyAwVhbyOCcPuu2hZNL0A0dAur9sNG9pEkONPfCEQeF7m2mC8KpqZO0Ol6tpV5J0AF3HTXT3GXA==",
+      "sha512": "7MrIPnbKLb1NkfB69pCd3zgQHPGR8gTcgQPsv4RRKAyv8S/ZNF7JzmDZpUEw+5xIK1BmFfMm9BafzrV03TmuIw==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostpolicy/2.0.0",
       "files": [
@@ -7238,7 +7238,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetHostResolver/2.0.0": {
-      "sha512": "uBbjpeSrwsaTCADZCzRk+3aBzNnMqkC4zftJWBsL+Zk+8u+W+/lMb2thM5Y4hiVrv1YQg9t6dKldXzOKkY+pQw==",
+      "sha512": "W9VC8xJ1whmAYGVMWBv2FNQXg4aY0x2UW4PewKeMtP04CLIXzIjU46ExyP9t15LS2gF1Oca8z/Fgr99IHqfdgQ==",
       "type": "package",
       "path": "microsoft.netcore.dotnethostresolver/2.0.0",
       "files": [
@@ -7250,7 +7250,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.0.0": {
-      "sha512": "VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "sha512": "csLNfoFGoISTEoIYjsC9Wnebo5bgoLAFxmj7f5/FiBK8ZH3RseqKQHpmI4LgVQ8h/Kt8LDkXyunJ64LSkwjxyg==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.0.0",
       "files": [
@@ -7393,7 +7393,7 @@
       ]
     },
     "NETStandard.Library/2.0.0": {
-      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+      "sha512": "uPAFJj7PdLXQvHxPYPEOH4Ku3YU52ektPQgOPEFSEyag2ZiyA9cuNedN8QYERqJGoYl3adM0jim8ft7WxRTuzw==",
       "type": "package",
       "path": "netstandard.library/2.0.0",
       "files": [
@@ -12530,6 +12530,7 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.AspNetCore.Mvc >= 2.0.0",
+      "Microsoft.AspNetCore.Server.IISIntegration >= 2.0.0",
       "Microsoft.AspNetCore.Session >= 2.0.0",
       "Microsoft.AspNetCore.StaticFiles >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
@@ -12584,6 +12585,10 @@
             "version": "2.0.0"
           },
           "Microsoft.AspNetCore.Mvc": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.AspNetCore.Server.IISIntegration": {
             "target": "Package",
             "version": "2.0.0"
           },

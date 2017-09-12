@@ -14,6 +14,13 @@ namespace Dojodachi
     {
         public static void Main(string[] args)
         {
+            IWebHost host = new WebHostBuilder()
+                .UseKestrel()
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseStartup<Startup>()
+                .UseIISIntegration()
+                .Build();
+            host.Run();
             BuildWebHost(args).Run();
         }
 
@@ -21,5 +28,6 @@ namespace Dojodachi
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
                 .Build();
+
     }
 }
