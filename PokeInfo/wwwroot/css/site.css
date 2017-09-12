@@ -1,0 +1,7 @@
+#pokeContainer{
+    margin: auto;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid black;
+    margin-top: 100px;
+}
