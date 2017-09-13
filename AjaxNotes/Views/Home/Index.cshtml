@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div id="notesContainer">
+    <h3 style="text-align:left">Notes</h3>
+    <div id="notes">
+        @foreach(var note in ViewBag.Notes){
+            <div style="border-top:1px solid black;padding:20px;">
+                <h2 class="notesText">@note["title"]</h2>
+                <form action="/deleteNote" method="post" class="notesText" style="float:right">
+                    <input type="hidden" name="noteID" value="@note["id"]">
+                    <input type="submit" value="delete">
+                </form>
+                <form action="/updateNote" method="post" class="updateNoteForm">
+                    <p class="staticNoteText" style="border:1px solid black;padding:10px;">@note["content"]</p>
+                    <textarea class="form-control dynamicNoteText" name="content" cols="30" rows="10" placeholder="Enter description here...">@note["content"]</textarea>
+                    <input type="hidden" name="noteID" value="@note["id"]">
+                    <input class="submitButton" type="submit">
+                </form>
+            </div>
+        }
+    </div>
+    <form action="/addNote" method="post" class="form-horizontal" id="newNote">
+        <input type="text" id="newNote" name="noteName" class="form-control" style="margin-top:10px" placeholder="Insert note title here...">
+    </form>
+</div> 
