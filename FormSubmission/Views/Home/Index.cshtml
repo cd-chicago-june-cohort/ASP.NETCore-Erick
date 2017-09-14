@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div id="formContainer">
+    <div>
+        @{
+            @if(ViewBag.noErrors){
+                @foreach(var error in ViewBag.errors)
+                {
+                    @if(@error.Errors.Count > 0)
+                    {
+                        <p>@error.Errors[0].ErrorMessage</p>
+                    }
+                }
+            }
+        }
+    </div>
+    <form class="form" action="/processFrom" method="post">
+        <h1>Enter your information</h1>
+        <label for="firstName">First Name</label>
+        <input class="form-control" type="text" name="firstName">
+        <label for="lastName">Last Name</label>
+        <input class="form-control" type="text" name="lastName">
+        <label for="age">Age</label>
+        <input class="form-control" type="number" name="age">
+        <label for="email">Email Address</label>
+        <input class="form-control" type="text" name="email">
+        <label for="password">Password</label>
+        <input class="form-control" type="password" name="password">
+        <input class="form-control" type="submit">
+    </form>
+</div>
