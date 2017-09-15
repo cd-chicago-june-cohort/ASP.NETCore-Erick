@@ -1,0 +1,41 @@
+#header{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #3B5998;
+    color: white;
+    box-shadow: 2px 2px 5px black; 
+}
+.headerInfo{
+    display: inline-block;
+}
+#formContainer{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 50px;
+}
+#loginContainer{
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    width: 500px;
+    border: 1px solid black;
+}
+#errors{
+    padding: 20px;
+    text-align: center;
+}
+#errors h1{
+    margin-top: 0px;
+}
+.messageContainer{
+    padding: 20px;
+    margin-top: 10px;
+}
+.formContainer{
+    padding-left: 50px;
+    padding-right: 50px;
+}
