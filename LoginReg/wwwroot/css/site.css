@@ -1,0 +1,23 @@
+#formContainer{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 50px;
+}
+#loginContainer{
+    margin: auto;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    width: 500px;
+    border: 1px solid black;
+}
+#errors{
+    padding: 20px;
+    text-align: center;
+}
+#errors h1{
+    margin-top: 0px;
+}
