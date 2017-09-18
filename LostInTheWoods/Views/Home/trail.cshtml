@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div id="container">
+    <div class="row">
+        <div class="col-md-9">
+            <h1>@ViewBag.UniqueTrail.Name</h1>
+        </div>
+        <div class="col-md-3">
+            <a href="/"><h2>Go Home</h2></a>
+        </div>
+    </div>
+    <div id="trailInfoContainer">
+        <h2>Description</h2>
+        <p>@ViewBag.UniqueTrail.Description</p>
+        <h2>Trail Length</h2>
+        <p>@ViewBag.UniqueTrail.Length</p>
+        <h2>Elevation Change</h2>
+        <p>@ViewBag.UniqueTrail.Elevation_Change</p>
+        <h2>Longitude</h2>
+        <p>@ViewBag.UniqueTrail.Longitude N</p>
+        <h2>Latitude</h2>
+        <p>@ViewBag.UniqueTrail.Latitude W</p>        
+    </div>
+</div>
