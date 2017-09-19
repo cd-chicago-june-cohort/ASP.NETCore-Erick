@@ -1,0 +1,44 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model TheDojoLeague.Models.Dojo
+@using TheDojoLeague
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div id="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>All Dojos</h1>
+            <table class="table table-hover">
+                <thead>
+                    <td>Dojo Name</td>
+                </thead>
+                <tbody>
+                    @foreach(var dojo in @ViewBag.Dojos){
+                        <tr>
+                            <td>@dojo.Name</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-6">
+            <h1>Register A Dojo</h1>
+            <form asp-controller="Dojos" asp-action="addDojo" method="post" class="form">
+                <span asp-validation-for="Name"></span><br>
+                <label asp-for="Name"></label>
+                <input class="form-control" asp-for="Name">
+
+                <span asp-validation-for="Location"></span><br>
+                <label asp-for="Location"></label>
+                <input class="form-control" asp-for="Location">
+
+                <span asp-validation-for="Information"></span><br>
+                <label asp-for="Information"></label>
+                <textarea class="form-control" asp-for="Information" cols="30" rows="10"></textarea>
+
+                <input class="form-control" type="submit" value="Add" style="margin-top:20px;">
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model TheDojoLeague.Models.Ninja
+@using TheDojoLeague
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div id="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>Registered Ninjas</h1>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <td>Ninja Name</td>
+                        <td>Home Dojo</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-6">
+            <h1>Register A Ninja</h1>
+            <form asp-controller="Ninjas" asp-action="addNinja" method="post" class="form">
+                <span asp-validation-for="Name"></span><br>
+                <label asp-for="Name"></label>
+                <input class="form-control" asp-for="Name">
+
+                <span asp-validation-for="Level"></span><br>
+                <label asp-for="Level"></label>
+                <input class="form-control" asp-for="Level">
+
+                <label for="Dojo">Assigned Dojo?</label>
+                <select class="form-control" name="dojo">
+                @foreach(var dojo in ViewBag.Dojos){
+                    <option value="@dojo.Id">@dojo.Name</option>
+                }
+                    <option value="0">Rouge</option>
+                </select>
+
+                <span asp-validation-for="Description"></span><br>
+                <label asp-for="Description"></label>
+                <textarea class="form-control" asp-for="Description" cols="30" rows="10"></textarea>
+
+                <input class="form-control" type="submit" value="Add" style="margin-top:20px;">
+            </form>
+        </div>
+    </div>
+</div>

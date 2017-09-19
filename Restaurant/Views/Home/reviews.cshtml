@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div id="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h1>All Reviews</h1>
+        </div>
+        <div class="col-md-4">
+            <a href="/"><h1>Go back</h1></a>
+        </div>
+    </div>
+    @foreach(var review in @ViewBag.Reviews){
+        <div class="reviewContainer">
+            <h3>Review for: </h3>
+            <h2>@review.Restaurant  @review.Stars Star</h2>
+            <h3>Reviewer: </h3>
+            <h2>@review.Author, @review.Date</h2>
+            <h2>-@review.Content</h2>
+        </div>
+    }
+</div>
