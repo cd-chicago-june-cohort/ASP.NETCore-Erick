@@ -1,0 +1,49 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model BankAccounts.Models.TransactionViewModel
+@using BankAccounts
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<div id="accountInfoContainer">
+    <div class="row">
+        <div class="col-md-8">
+            <h1>Welcome, @ViewBag.CurrentUser.FirstName</h1>
+        </div>
+        <div class="col-md-4">
+            <a href="/login"><h4>Logout</h4></a>
+            <h3>Current balance: $@ViewBag.CurrentUser.Balance</h3>
+        </div>
+    </div>
+    <form asp-controller="Account" asp-action="addTrans" method="post" class="form">
+        <div class="row">
+            <div class="col-md-6">
+                <span asp-validation-for="Amount"></span><br>
+                <label asp-for="Amount"></label>
+                <input class="form-control" asp-for="Amount" placeholder="Enter amount">
+            </div>
+            <div class="col-md-6">
+                <input type="submit" value="Submit" style="margin-top: 50px;">
+            </div>
+        </div>
+    </form>
+    <div class="row">
+        <div class="col-md-8">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <td>Amount</td>
+                        <td>Date</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var transaction in @ViewBag.Transactions){
+                        <tr>
+                            <td>$@transaction.Amount</td>
+                            <td>@transaction.Date</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

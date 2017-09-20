@@ -1,0 +1,14 @@
+#formContainer{
+    width: 500px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 30px;
+}
+#accountInfoContainer{
+    width: 970px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 30px;
+}

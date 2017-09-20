@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model BankAccounts.Models.LoginViewModel
+@using BankAccounts
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<div id="formContainer">
+    <div class="row">
+        <div class="col-md-8">
+            <h1>Login</h1>
+        </div>
+        <div class="col-md-4" style="margin-top:7%">
+            <a href="/"><h5>Need to Register?</h5></a>
+        </div>
+    </div>
+    <form asp-controller="Home" asp-action="loginUser" method="post" class="form">
+
+        <span asp-validation-for="Email"></span><br>
+        <label asp-for="Email"></label>
+        <input class="form-control" asp-for="Email">
+
+        <span asp-validation-for="Password"></span><br>
+        <label asp-for="Password"></label>
+        <input class="form-control" asp-for="Password">
+
+        <input class="form-control" type="submit" value="Submit" style="margin-top:20px;">
+
+    </form>
+</div>
