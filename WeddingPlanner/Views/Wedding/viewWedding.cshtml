@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model WeddingPlanner.Models.Wedding
+<div id="planWeddingContainer">
+    <div class="row">
+        <div class="col-md-8">
+            <h1>@ViewBag.Wedding.WedderOne and @ViewBag.Wedding.WedderTwo Wedding</h1>
+        </div>
+        <div class="col-md-2">
+            <a href="/dashboard"><h4>Dashboard</h4></a>
+        </div>
+        <div class="col-md-2">
+            <a href="/login"><h4 style="vertical-align:bottom">Log Out</h4></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Date: @ViewBag.Wedding.Date.ToString("MMM d, yyyy")</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Guests:</h2>
+            <ul>
+                @foreach(var guestInWedding in @ViewBag.Wedding.Guests){
+                    <li>@guestInWedding.Guest.FirstName @guestInWedding.Guest.LastName</li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

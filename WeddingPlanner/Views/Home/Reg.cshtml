@@ -1,0 +1,41 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model WeddingPlanner.Models.RegisterViewModel
+@using WeddingPlanner
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<div id="formContainer">
+    <div class="row">
+        <div class="col-md-8">
+            <h1>Register</h1>
+        </div>
+        <div class="col-md-4" style="margin-top:7%">
+            <a href="/login"><h5>Already Registered?</h5></a>
+        </div>
+    </div>
+    <form asp-controller="Home" asp-action="register" method="post" class="form">
+
+        <span asp-validation-for="FirstName"></span><br>
+        <label asp-for="FirstName"></label>
+        <input class="form-control" asp-for="FirstName">
+
+        <span asp-validation-for="LastName"></span><br>
+        <label asp-for="LastName"></label>
+        <input class="form-control" asp-for="LastName">
+
+        <span asp-validation-for="Email"></span><br>
+        <label asp-for="Email"></label>
+        <input class="form-control" asp-for="Email">
+
+        <span asp-validation-for="Password"></span><br>
+        <label asp-for="Password"></label>
+        <input class="form-control" asp-for="Password">
+
+        <span asp-validation-for="PasswordConfirmation"></span><br>
+        <label asp-for="PasswordConfirmation"></label>
+        <input class="form-control" asp-for="PasswordConfirmation">
+
+        <input class="form-control" type="submit" value="Submit" style="margin-top:20px;">
+
+    </form>
+</div>

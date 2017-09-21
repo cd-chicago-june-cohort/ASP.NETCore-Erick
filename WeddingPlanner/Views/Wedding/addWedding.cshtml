@@ -1,0 +1,42 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model WeddingPlanner.Models.WeddingViewModel
+@using WeddingPlanner
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<div id="planWeddingContainer">
+    <div class="row">
+        <div class="col-md-8">
+            <h1>Plan Your Wedding</h1>
+        </div>
+        <div class="col-md-2">
+            <a href="/dashboard"><h4>Dashboard</h4></a>
+        </div>
+        <div class="col-md-2">
+            <a href="/login"><h4>Log Out</h4></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-controller="Wedding" asp-action="processWedding" method="post" class="form">
+                <span asp-validation-for="WedderOne"></span><br>
+                <label asp-for="WedderOne"></label>
+                <input class="form-control" asp-for="WedderOne">
+        
+                <span asp-validation-for="WedderTwo"></span><br>
+                <label asp-for="WedderTwo"></label>
+                <input class="form-control" asp-for="WedderTwo">
+
+                <span asp-validation-for="Date"></span><br>
+                <label asp-for="Date"></label>
+                <input class="form-control" asp-for="Date" type="date">
+
+                <span asp-validation-for="Address"></span><br>
+                <label asp-for="Address"></label>
+                <input class="form-control" asp-for="Address">
+        
+                <input class="form-control" type="submit" value="Create" style="margin-top:20px;">
+            </form>
+        </div>
+    </div>
+</div>

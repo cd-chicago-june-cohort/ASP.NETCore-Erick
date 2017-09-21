@@ -1,0 +1,46 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div id="dashboardContainer">
+    <div class="row">
+        <div class="col-md-9">
+            <h1>Welcome to Wedding Planner</h1>                    
+        </div>  
+        <div class="col-md-3">
+            <a href="/login"><h3>Log Out</h3></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <td>Wedding</td>
+                        <td>Date</td>
+                        <td>Guest</td>
+                        <td>Action</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var wedding in @ViewBag.Weddings){
+                        <tr>
+                            <td><a asp-controller="Wedding" asp-action="viewWedding" asp-route-Id=@wedding.WeddingId>@wedding.WedderOne & @wedding.WedderTwo</a></td>
+                            <td>@wedding.Date.ToString("MMM d, yyyy")</td>
+                            <td>@wedding.Guests.Count</td>
+                            @if(@ViewBag.Attending.Contains(@wedding.WeddingId)){
+                                <td><a asp-controller="Wedding" asp-action="UnRsvp" asp-route-Id=@wedding.WeddingId>UnRSVP</a></td>
+                            }else{
+                                <td><a asp-controller="Wedding" asp-action="rsvp" asp-route-Id=@wedding.WeddingId>RSVP</a></td>
+                            }
+                        </tr>
+                    } 
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-md-offset-7">
+            <a href="/addWedding"><button style="float:right;">New Wedding</button></a>
+        </div>
+    </div>
+</div>
